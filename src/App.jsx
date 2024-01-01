@@ -10,6 +10,13 @@ import Industries from "./pages/industries/Industries";
 import Services from "./pages/services/Services";
 
 function App() {
+
+  // const router = createBrowserRouter (
+  //   createroutesFromElements(
+      
+  //   )
+  // )
+
   return (
     <>
       <BrowserRouter>
