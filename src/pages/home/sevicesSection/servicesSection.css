@@ -1,0 +1,77 @@
+.services-section {
+    padding: 100px 0;
+    background-image: url(../../../assets/world_map.jpg);
+    background-size: cover;
+}
+
+.services-section .container .row {
+    display: flex;
+    gap: 50px;
+}
+
+.services-section .container .row .service-section-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.services-section .container .row .service-section-left p {
+    font-size: 1.125rem;
+    text-align: justify;
+}
+
+.services-section .container .row .service-section-right {
+    /* flex: 2; */
+    padding: 0 30px;
+    width: 65%;
+}
+
+.services-section .container .row .service-section-right .card {
+    width: 332px;
+    height: 430px;
+    background-color: white;
+    border: 1px solid #E7E7E7;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.services-section .container .row .service-section-right .card .service-image img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.services-section .container .row .service-section-right .card .details {
+    padding-top: 5px;
+}
+
+.services-section .container .row .service-section-right .card .details h5 {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.services-section .container .row .service-section-right .card .details p {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.slick-slide > div {
+    margin: 0 10px;
+}
+
+
+@media screen and (max-width: 769px) {
+    .services-section .container .row {
+        flex-direction: column;
+    }
+
+    .services-section .container .row .service-section-left {
+        padding-top: 0;
+    }
+
+    .services-section .container .row .service-section-right {
+    width: 90%;
+}
+}

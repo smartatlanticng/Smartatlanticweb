@@ -1,0 +1,24 @@
+.contact-section {
+    padding: 100px 100px; 
+    background-image: url(../../../assets/contact-section.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+}
+
+.contact-section .overlay {
+    background: rgba(255, 255, 255, 0.66);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+    top: 0;
+    left: 0;
+}
+
+.contact-section .container .row {
+    display: flex;
+    justify-content: space-between;
+    z-index: 200;
+}

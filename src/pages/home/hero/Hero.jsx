@@ -2,7 +2,7 @@ import './hero.css';
 
 function Hero() {
   return (
-    <div className="hero">
+    <section className="hero">
       <div className="container">
         <div className="hero-area">
           <div className="hero-area-left">
@@ -28,7 +28,7 @@ function Hero() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

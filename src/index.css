@@ -25,19 +25,40 @@ body {
   font-size: 1.25rem;
   font-weight: 600;
   padding: 17px 47px;
-  border: none;
+  border: 1px solid transparent;
   border-radius: 5px;
+  background: white;
 }
 
 .btn-primary {
   color: var(--primry-color);
   transition: 0.3s ease-in-out;
+  cursor: pointer;
 }
 
 .btn-primary:hover {
   background-color: var(--primary-color);
   border: 1px solid white;
   color: white;
+}
+
+.btn-secondary {
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+.btn-secondary:hover {
+  background: var(--primary-color);
+  color: white;
+  border: 1px solid transparent;
+
+}
+
+.h2-title {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 30px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -47,5 +68,10 @@ body {
 
     .btn {
       font-size: 1rem;
+  padding: 10px 25px;
+    }
+
+    .h2-title {
+      font-size: 38px;
     }
 }
