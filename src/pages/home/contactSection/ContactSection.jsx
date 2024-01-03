@@ -18,7 +18,7 @@ function ContactSection() {
               </p>
             </div>
             <div className="contact-section-right-bottom">
-              <button className="btn btn-primary">Contact Us</button>
+              <button className="btn btn-thirtialry">Contact Us</button>
               <button className="btn btn-secondary">Learn More</button>
             </div>
           </div>

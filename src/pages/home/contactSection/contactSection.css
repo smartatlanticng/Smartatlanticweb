@@ -1,24 +1,44 @@
 .contact-section {
-    padding: 100px 100px; 
-    background-image: url(../../../assets/contact-section.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    z-index: -1;
+  padding: 100px 0px;
+  background-image: url(../../../assets/contact-section.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .contact-section .overlay {
-    background: rgba(255, 255, 255, 0.66);
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: -10;
-    top: 0;
-    left: 0;
+  background: rgba(255, 255, 255, 0.66);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  top: 0;
+  left: 0;
 }
 
 .contact-section .container .row {
-    display: flex;
-    justify-content: space-between;
-    z-index: 200;
+  display: flex;
+  gap: 1px;
+}
+
+.contact-section .container .row .contact-section-right-top p {
+  font-size: 18px;
+  text-align: justify;
+}
+
+.contact-section .container .row .contact-section-right-bottom {
+  margin-top: 50px;
+  display: flex;
+  gap: 30px;
+}
+
+@media screen and (max-width: 769px) {
+  .contact-section .container .row {
+    flex-direction: column;
+  }
+
+  .contact-section .container .row .contact-section-right-bottom {
+    justify-content: space-around;
+    gap: none;
+  }
 }

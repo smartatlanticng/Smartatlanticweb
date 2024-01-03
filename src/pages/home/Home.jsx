@@ -1,3 +1,4 @@
+import Footer from "../../layouts/footer/Footer";
 import Header from "../../layouts/header/Header";
 import Hero from "../../pages/home/hero/Hero";
 import AboutSection from "./aboutSection/AboutSection";
@@ -16,6 +17,7 @@ function Home() {
         <AboutSection />
         <OurWork />
         <ContactSection />
+        <Footer />
     </div>
   )
 }
