@@ -1,6 +1,6 @@
 .footer {
     background: var(--primary-color);
-    padding: 100px 0; 
+    padding-top: 100px; 
 }
 
 .footer .container .row .footer-top {
@@ -100,6 +100,7 @@
     border-top: 1px solid white;
     margin-top: 30px;
     padding-top: 20px;
+    padding-bottom: 30px;
 }
 
 .footer-bottom .row {
@@ -128,9 +129,9 @@
 
 }
 
-.footer-bottom .row .footer-bottom-right .footer-down-menu .footer-menu-item a {
+/* .footer-bottom .row .footer-bottom-right .footer-down-menu .footer-menu-item a {
     
-}
+} */
 
 @media screen and (max-width: 769px) {
     .footer .container .row .footer-top {

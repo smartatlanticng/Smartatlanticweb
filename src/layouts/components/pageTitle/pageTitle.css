@@ -1,0 +1,16 @@
+.page-title {
+    height: 350px;
+}
+
+.page-title .container .title {
+    height: 350px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.page-title .container .title h3 {
+    font-size: 58px;
+    font-weight: 300;
+    color: white;
+}

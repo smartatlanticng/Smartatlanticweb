@@ -3,9 +3,9 @@
     padding: 100px 0; 
 }
 
-.our-work .container .our-work-top {
+/* .our-work .container .our-work-top {
 
-}
+} */
 
 .our-work .container .our-work-top p {
     font-size: 18px;
@@ -17,15 +17,16 @@
 
 .our-work .container .our-work-bottom .card {
     width: 410px;
-    height: 150px;
     height: fit-content;
-    border: 2px solid white;
+    /* border: 2px solid transparent; */
     border-radius: 20px;
     position: relative;
     z-index: 10;
     margin: 20px 0;
-    background: white;
-    transition: all 1s;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -53,23 +54,33 @@
     z-index: -1;
 }
 
+.our-work .container .our-work-bottom .card .portfolio-image {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
 .our-work .container .our-work-bottom .card .portfolio-image img {
     width: 100%;
-    border-radius: 20px;
 }
 
 .our-work .container .our-work-bottom .card .portfolio-image .overlay {
     content: "";
     position: absolute;
-    top: 3px;
-    left: 3px;
-    width: 99%;
-    height: 99%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     border-radius: 20px;
-    background: var(--primary-color);
+    background: #008EC0;
     opacity: 0.95;
     z-index: 2;
     display: none;
+    transition: 1s ease-in-out;
 }
 
 .our-work .container .our-work-bottom .card .portfolio-image h5 {
@@ -82,19 +93,26 @@
     right: 0;
     margin: auto;
     transform: translateY(-50%);
+    padding: 10px;
     z-index: 2;
     color: white;
     display: none;
-    transition: all 1s;
+    transition: all 5s;
 }
 
-.our-work .container .our-work-bottom .card:hover .overlay {
+.our-work .container .our-work-bottom .card:hover .portfolio-image .overlay {
     display: block;
 }
 
 .our-work .container .our-work-bottom .card:hover::before {
-    width: 102.0%;
-    height: 102.5%;
+    width: 103.0%;
+    height: 103.5%;
+    border-radius: 20px;
+}
+
+.our-work .container .our-work-bottom .card:hover::after {
+    width: 103.5%;
+    height: 103.5%;
     border-radius: 20px;
 }
 

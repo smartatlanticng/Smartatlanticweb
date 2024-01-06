@@ -162,7 +162,8 @@
   }
 
   .hero-area {
-    flex-direction: column;
+    flex-direction: column-reverse;
+    padding-bottom: 50px;
   }
 
   .hero-area-left {

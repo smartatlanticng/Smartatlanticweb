@@ -70,6 +70,10 @@
     .services-section .container .row .service-section-left {
         padding-top: 0;
     }
+    
+    .services-section .container .row .service-section-right .card .details h5 {
+        font-size: 18px;
+    }
 
     .services-section .container .row .service-section-right {
     width: 90%;

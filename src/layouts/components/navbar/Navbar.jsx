@@ -27,22 +27,22 @@ class Navbar extends Component {
                 <NavLink to="/">Home</NavLink>
               </li>
               <li className="nav-menu-item">
-                <NavLink to="insights">Insights</NavLink>
+                <NavLink to="/insights">Insights</NavLink>
               </li>
               <li className="nav-menu-item">
-                <NavLink to="services">Services</NavLink>
+                <NavLink to="/services">Services</NavLink>
               </li>
               <li className="nav-menu-item">
-                <NavLink to="industries">Industries</NavLink>
+                <NavLink to="/industries">Industries</NavLink>
               </li>
               <li className="nav-menu-item">
-                <NavLink to="about">About Us</NavLink>
+                <NavLink to="/about">About Us</NavLink>
               </li>
+              {/* <li className="nav-menu-item">
+                <NavLink to="/careers">Careers</NavLink>
+              </li> */}
               <li className="nav-menu-item">
-                <NavLink to="careers">Careers</NavLink>
-              </li>
-              <li className="nav-menu-item">
-                <NavLink to="contact">Contact Us</NavLink>
+                <NavLink to="/contact">Contact Us</NavLink>
               </li>
             </ul>
           </div>

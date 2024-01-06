@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
 
 * {
   margin: 0;
@@ -7,13 +7,13 @@
 }
 
 :root {
-  --primary-color: #2B25AF;
-  --accent-color: #47DCC6;
+  --primary-color: #2b25af;
+  --accent-color: #47dcc6;
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
-  color: #1E1E1E;
+  font-family: "Open Sans", sans-serif;
+  color: #1e1e1e;
 }
 
 .container {
@@ -52,7 +52,6 @@ body {
   background: var(--primary-color);
   color: white;
   border: 1px solid transparent;
-
 }
 
 .btn-thirtialry {
@@ -68,22 +67,52 @@ body {
 }
 
 .h2-title {
-    font-size: 48px;
-    font-weight: 600;
-    margin-bottom: 30px;
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 30px;
 }
 
+
+.col-md-2 {
+  width: 50%;
+}
+
+.col-md-3 {
+  width: 25%;
+}
+
+.col-md-4 {
+  width: 33.33%;
+}
+
+
+
 @media only screen and (max-width: 769px) {
-    .container {
-      width: 95%;
-    }
+  .container {
+    width: 95%;
+  }
 
-    .btn {
-      font-size: 1rem;
-  padding: 10px 25px;
-    }
+  .btn {
+    font-size: 1rem;
+    padding: 10px 25px;
+  }
 
-    .h2-title {
-      font-size: 38px;
-    }
+  .h2-title {
+    font-size: 38px;
+  }
+
+  /* .col-md-{
+    display: none;
+  } */
+
+  /* .col-md-3{
+    display: none;
+  }
+
+  .col-md-4 {
+    display: none;
+  } */
+  .col-sm {
+    width: 100%;
+  }
 }

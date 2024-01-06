@@ -1,0 +1,84 @@
+.insights {
+  padding: 100px 0;
+}
+
+.insights .container .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.insights .container .row .card {
+  margin: 25px;
+  background: #f3f6f7;
+  padding: 15px;
+  position: relative;
+  z-index: 0;
+}
+
+.insights .container .row .card .card-image {
+  width: 100%;
+  position: relative;
+}
+
+.insights .container .row .card .card-image img {
+  width: 100%;
+}
+
+.insights .container .row .card .card-date {
+  position: absolute;
+  height: 55.5px;
+  top: 10%;
+  right: -3px;
+  background-image: url("../../../public/insights/corner-wrap.png");
+  background-repeat: no-repeat;
+  padding: 10px;
+}
+
+.insights .container .row .card .card-date .day {
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -5px;
+    margin-top: -10px;
+}
+
+.insights .container .row .card .card-date .myr {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.insights .container .row .card .card-category {
+  width: 80%;
+  height: 46px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: -5%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  background: var(--primary-color);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.insights .container .row .card .card-category .category-text {
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: white;
+}
+
+.insights .container .row .card .card-info {
+  padding-top: 50px;
+}
+
+.insights .container .row .card .card-info h5 {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.insights .container .row .card .card-info p {
+  font-size: 1rem;
+  text-align: justify;
+}

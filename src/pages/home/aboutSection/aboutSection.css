@@ -42,7 +42,7 @@
 
 @media screen and (max-width: 769px) {
     .about-section .container .row {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .about-section .container .row .about-section-left {
