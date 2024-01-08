@@ -1,0 +1,316 @@
+.about {
+  padding: 100px 0;
+}
+
+.about .container .row {
+  display: flex;
+}
+
+.about .container .row .main-about-img {
+  padding-right: 10px;
+  width: 100%;
+}
+
+.about .container .row .main-about-img img {
+  border-radius: 20px;
+  width: 100%;
+}
+
+.who-we-are-txt {
+  min-height: 100%;
+  background: linear-gradient(
+      0deg,
+      rgba(71, 220, 198, 0.83),
+      rgba(71, 220, 198, 0.83)
+    ),
+    url(../../assets/bulb-lit-1.jpg);
+  background-size: cover;
+  border-radius: 20px;
+  margin: 0px 5px 10px 0px;
+  padding: 25px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.who-we-are-txt:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 128, 0.83),
+      rgba(0, 0, 128, 0.83)
+    ),
+    url(../../assets/bulb-lit-1.jpg);
+  background-size: cover;
+}
+
+.who-we-are-txt a {
+  color: white;
+  font-size: 28px;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.who-we-are-img {
+  margin: 0px 0px 5px 5px;
+  height: 100%;
+  width: 100%;
+}
+
+.who-we-are-img img {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.what-we-believe-txt {
+  min-height: 100%;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 128, 0.83),
+      rgba(0, 0, 128, 0.83)
+    ),
+    url(../../assets/office.jpg);
+  background-size: cover;
+  border-radius: 20px;
+  margin: 10px 0px 0px 5px;
+  padding: 25px;
+  display: flex;
+  justify-content: start;
+  align-items: end;
+}
+
+.what-we-believe-txt:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(71, 220, 198, 0.83),
+      rgba(71, 220, 198, 0.83)
+    ),
+    url(../../assets/office.jpg);
+  background-size: cover;
+}
+
+.what-we-believe-txt a {
+  color: white;
+  font-size: 28px;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.what-we-believe-img {
+  margin: 10px 5px 0px 0px;
+  height: 100%;
+}
+
+.what-we-believe-img img {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.mission-left {
+  width: 40%;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 128, 0.83),
+      rgba(0, 0, 128, 0.83)
+    ),
+    url(../../assets/change-management.jpg);
+  background-size: cover;
+  padding: 25px;
+  border-radius: 20px 0 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.mission-left h5 {
+  font-size: 32px;
+  font-weight: 300;
+  color: white;
+}
+
+.mission-left p {
+  font-size: 28px;
+  font-weight: 200;
+  color: white;
+}
+
+.mission-right {
+  width: 55%;
+}
+
+.mission-right img {
+  border-radius: 0 20px 20px 0;
+  width: 100%;
+}
+
+.organization-left {
+  width: 60%;
+}
+
+.organization-left img {
+  border-radius: 20px 0 0 20px;
+  width: 100%;
+}
+
+.organization-right {
+  width: 42%;
+  background: linear-gradient(
+      0deg,
+      rgba(71, 220, 198, 0.83),
+      rgba(71, 220, 198, 0.83)
+    ),
+    url(../../assets/change-management.jpg);
+  background-size: cover;
+  padding: 30px;
+  border-radius: 0 20px 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+.organization-right h5 {
+  font-size: 32px;
+  font-weight: 300;
+  color: white;
+}
+
+.organization-right p {
+  font-size: 28px;
+  font-weight: 200;
+  color: white;
+}
+
+.our-people {
+}
+
+.our-people h5 {
+  font-size: 32px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.profile {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.profile .profile-photo img {
+  border-radius: 20px;
+}
+
+.profile .profile-photo .socials {
+  margin-top: 30px;
+  display: flex;
+  gap: 15px;
+}
+
+.profile .profile-photo .socials i {
+  width: 35px;
+  height: 35px;
+  padding: 10px;
+  background: white;
+  border: 1px solid var(--primary-color);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile .profile-photo .socials i:hover {
+  color: white;
+  background: var(--primary-color);
+  cursor: pointer;
+}
+
+.profile .profile-details {
+  background: white;
+  -webkit-box-shadow: 0px 0px 15px -4px rgba(0, 0, 0, 0.35);
+  box-shadow: 0px 0px 15px -4px rgba(0, 0, 0, 0.35);
+  padding: 30px;
+  border-radius: 20px;
+  margin-left: -100px;
+}
+
+.profile .profile-details h5 {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.profile .profile-details p {
+  font-size: 18px;
+  text-align: justify;
+  line-height: 31px;
+}
+
+@media only screen and (max-width: 769px) {
+  .about .container .row {
+    flex-direction: column;
+  }
+
+  .about .container .row .main-about-img {
+    margin-bottom: 50px;
+    padding: 0;
+  }
+
+  .who-we-are-txt {
+    height: 350px;
+    order: 2;
+    margin: 0 0 50px 0;
+  }
+
+  .who-we-are-img {
+    order: 1;
+    margin: 0 0 50px 0;
+  }
+
+  .what-we-believe-txt {
+    height: 350px;
+    order: 2;
+    margin: 0 0 50px 0;
+  }
+
+  .what-we-believe-img {
+    margin: 0 0 50px 0;
+  }
+
+  .mission-left {
+    width: 100%;
+    order: 2;
+    border-radius: 20px;
+  }
+
+  .mission-right {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .organization-left {
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 50px;
+  }
+
+  .organization-right {
+    width: 100%;
+  }
+
+  .profile {
+    flex-direction: column;
+  }
+
+  .profile .profile-photo {
+    width: 100%;
+  }
+
+  .profile .profile-photo img {
+    width: 100%;
+  }
+
+  .profile .profile-details {
+    margin: 50px 0 0 0;
+  }
+}

@@ -70,6 +70,7 @@ body {
   font-size: 48px;
   font-weight: 600;
   margin-bottom: 30px;
+  width: 50%;
 }
 
 
@@ -85,11 +86,19 @@ body {
   width: 33.33%;
 }
 
+.mt-50 {
+  margin-top: 100px;
+}
+
 
 
 @media only screen and (max-width: 769px) {
   .container {
     width: 95%;
+  }
+
+  .h2-title {
+    width: 100%;
   }
 
   .btn {
@@ -100,19 +109,12 @@ body {
   .h2-title {
     font-size: 38px;
   }
-
-  /* .col-md-{
-    display: none;
-  } */
-
-  /* .col-md-3{
-    display: none;
-  }
-
-  .col-md-4 {
-    display: none;
-  } */
+  
   .col-sm {
     width: 100%;
+  }
+
+  .col-sm-2 {
+    width: 50%;
   }
 }

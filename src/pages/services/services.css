@@ -1,0 +1,39 @@
+.services {
+  padding: 100px 0;
+}
+
+.services .container .row {
+  display: flex;
+  flex-wrap: wrap;
+  /* gap: 20px; */
+}
+
+.services .container .row .service-b-link {
+  height: 70px;
+  width: 93%;
+  background-color: white;
+  border: solid 1px var(--primary-color);
+  border-radius: 0 10px 10px 0;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 10px;
+  position: relative;
+  margin: 15px 5px;
+}
+
+.services .container .row .service-b-link:hover {
+    background: var(--primary-color);
+    color: white;
+}
+
+.services .container .row .service-b-link::after {
+  content: "";
+  background-color: var(--primary-color);
+  width: 50px;
+  height: 80px;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  z-index: -1;
+}

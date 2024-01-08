@@ -4,7 +4,10 @@ import PropTypes from "prop-types";
 function PageTitle({titleBg, title}) {
   return (
     <div
-      style={{ backgroundImage: `url(${titleBg})` }}
+      style={{
+        backgroundImage: `url(${titleBg})`,
+        backgroundPosition: "center",
+      }}
       className="page-title"
     >
       <div className="container">
