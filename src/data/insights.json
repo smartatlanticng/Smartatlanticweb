@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Modern networks: How to fast track competitive advantage",
+    "category": "Cloud",
+    "image": "/insights/network.jpg",
+    "excerpt": "Network modernization can yield greater business resiliency and cost efficiency, creating a ripple effect of innovation.",
+    "date": "2024-01-6"
+  },
+  {
+    "id": 2,
+    "title": "Modern networks: How to fast track competitive advantage",
+    "category": "Oil & Gas",
+    "image": "/insights/oil-gas.jpg",
+    "excerpt": "Network modernization can yield greater business resiliency and cost efficiency, creating a ripple effect of innovation.",
+    "date": "2023-12-2"
+  },
+  {
+    "id": 3,
+    "title": "Modern networks: How to fast track competitive advantage",
+    "category": "Automation",
+    "image": "/insights/automation.jpg",
+    "excerpt": "Network modernization can yield greater business resiliency and cost efficiency, creating a ripple effect of innovation.",
+    "date": "2023-09-25"
+  },
+  {
+    "id": 4,
+    "title": "Modern networks: How to fast track competitive advantage",
+    "category": "Telecoms",
+    "image": "/insights/5g.jpg",
+    "excerpt": "Network modernization can yield greater business resiliency and cost efficiency, creating a ripple effect of innovation.",
+    "date": "2023-10-25"
+  },
+  {
+    "id": 5,
+    "title": "Agricultural Process Automation In 2023",
+    "category": "Agriculture",
+    "image": "/insights/barns.jpg",
+    "excerpt": "Network modernization can yield greater business resiliency and cost efficiency, creating a ripple effect of innovation.",
+    "date": "2023-01-25"
+  },
+  {
+    "id": 6,
+    "title": "Modern networks: How to fast track competitive advantage",
+    "category": "Automation",
+    "image": "/insights/automation.jpg",
+    "excerpt": "Network modernization can yield greater business resiliency and cost efficiency, creating a ripple effect of innovation.",
+    "date": "2019-01-25"
+  },
+  {
+    "id": 7,
+    "title": "Agricultural Process Automation In 2023",
+    "category": "Agriculture",
+    "image": "/insights/checken.jpg",
+    "excerpt": "Network modernization can yield greater business resiliency and cost efficiency, creating a ripple effect of innovation.",
+    "date": "2019-01-25"
+  },
+  {
+    "id": 8,
+    "title": "Modern networks: How to fast track competitive advantage",
+    "category": "Finance",
+    "image": "/insights/finance.jpg",
+    "excerpt": "Network modernization can yield greater business resiliency and cost efficiency, creating a ripple effect of innovation.",
+    "date": "2019-01-25"
+  },
+  {
+    "id": 9,
+    "title": "Modern networks: How to fast track competitive advantage",
+    "category": "Automation",
+    "image": "/insights/auto-program.jpg",
+    "excerpt": "Network modernization can yield greater business resiliency and cost efficiency, creating a ripple effect of innovation.",
+    "date": "2019-01-25"
+  }
+]

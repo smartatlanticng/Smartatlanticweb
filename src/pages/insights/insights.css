@@ -29,23 +29,34 @@
   height: 55.5px;
   top: 10%;
   right: -3px;
-  background-image: url("../../../public/insights/corner-wrap.png");
-  background-repeat: no-repeat;
-  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
 }
 
-.insights .container .row .card .card-date .day {
-    font-size: 20px;
-    font-weight: 700;
-    display: flex;
-    justify-content: center;
-    margin-bottom: -5px;
-    margin-top: -10px;
+.insights .container .row .card .card-date .card-date-top {
+  background: var(--accent-color);
+  padding: 15px;
 }
 
-.insights .container .row .card .card-date .myr {
-    font-size: 13px;
-    font-weight: 700;
+.insights .container .row .card .card-date .card-date-top .day {
+  font-size: 1.25rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  margin-bottom: -5px;
+  margin-top: -5px;
+}
+
+.insights .container .row .card .card-date .card-date-top .myr {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.insights .container .row .card .card-date .triangle-topleft {
+  width: 0;
+  height: 0;
+  border-top: 15px solid var(--accent-color);
+  border-right: 18px solid transparent;
 }
 
 .insights .container .row .card .card-category {
@@ -78,7 +89,17 @@
   font-weight: 700;
 }
 
+.insights .container .row .card .card-info a {
+  text-decoration: none;
+  color: balck;
+}
+
+.insights .container .row .card .card-info a:hover {
+  color: var(--accent-color);
+}
+
 .insights .container .row .card .card-info p {
   font-size: 1rem;
   text-align: justify;
+  margin-top: 1rem;
 }
