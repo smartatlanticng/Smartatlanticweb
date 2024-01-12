@@ -6,6 +6,8 @@ function PageTitle({titleBg, title}) {
     <div
       style={{
         backgroundImage: `url(${titleBg})`,
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
       }}
       className="page-title"

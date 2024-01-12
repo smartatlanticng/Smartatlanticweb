@@ -3,6 +3,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 25px 0;
+  z-index: 20;
 }
 
 #nav-menu {
@@ -38,7 +39,7 @@ nav {
 .nav-menu-item a.active {
   color: var(--accent-color);
   position: relative;
-  transition: 0.3s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
 .nav-menu-item a:hover::after,
@@ -54,6 +55,98 @@ nav {
   transition: 0.3s ease-in-out;
 }
 
+.dropdown-menu {
+  font-size: 1rem;
+  font-weight: normal;
+  background-color: white;
+  width: fit-content;
+  position: absolute;
+  top: 62px;
+  line-height: 55px;
+  opacity: 0;
+  visibility: hidden;
+  padding-top: 20px;
+  list-style: none;
+  padding: 5px 15px;
+}
+
+.nav-menu-item:hover .dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.5s;
+  z-index: 100;
+}
+
+.dropdown-menu li {
+  border-bottom: 1px solid #e9e9e9;
+}
+
+.dropdown-menu li:last-child {
+  border-bottom: none;
+}
+
+.dropdown-menu li a {
+
+}
+
+.mega-menu {
+  background-color: white;
+  width: 100%;
+  position: absolute;
+  top: 62px;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s;
+  z-index: 100;
+}
+
+.nav-menu-item:hover .mega-menu {
+  opacity: 1;
+  visibility: visible;
+}
+
+.mega-menu .content {
+  padding: 25px 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.mega-menu .content .row {
+  line-height: 45px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mega-menu .content .row img {
+  width: 200px;
+  object-fit: cover;
+}
+
+.mega-menu .content .row .mega-menu-links {
+  column-count: 4;
+  column-gap: 50px;
+  list-style: none;
+  column-rule: dotted 1px #333;
+}
+
+.mega-menu .content .row .mega-menu-links li {
+  padding: 0 10px;
+  font-size: 1rem;
+  font-weight: normal;
+  border-bottom: 1px solid #e9e9e9;
+}
+
+mega-menu .content .row .mega-menu-links li:last-child {
+  border-bottom: none;
+}
+
+.mega-menu .content .row .mega-menu-links li a {
+  
+}
+
 #mobile {
   display: none;
 }
@@ -62,12 +155,12 @@ nav {
   #nav-menu {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: flex-start;
     position: fixed;
     top: 90px;
-    right: -300px;
-    width: 300px;
+    right: -100%;
+    width: 100%;
     height: 100vh;
     background: white;
     box-shadow: 0 40px 60px rgba(0, 0, 0, 0.4);
@@ -91,5 +184,20 @@ nav {
     font-size: 24px;
     cursor: pointer;
   }
+
+  .dropdown-menu{
+    width: 100%;
+    left: 0;
+    text-align: center;
+  }
+
+  .mega-menu .content .row img {
+  display: none;
+}
+
+.mega-menu .content .row .mega-menu-links {
+  column-count: 2;
+  width: 100%;
+}
 
 }
