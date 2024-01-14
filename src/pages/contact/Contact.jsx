@@ -3,12 +3,31 @@ import Footer from "../../layouts/footer/Footer";
 import Header from "../../layouts/header/Header";
 import PageTitle from "../../layouts/components/pageTitle/PageTitle";
 import ContactBg from "/title/contact.jpg";
-import { GoogleMap, useLoadScript } from "@react-google-maps/api";
+import { GoogleMap, useLoadScript, MarkerF, InfoWindow } from "@react-google-maps/api";
+import { useState } from "react";
+
+
+const markers = [
+  {
+    id: 1,
+    name: "Isolo",
+    Position: { lat: 6.546327741835034, lng: 3.288484627030556 },
+  },
+];
 
 function Contact() {
   const { isLoaded } = useLoadScript({
-    googleMapsApiKey: import.meta.env.REACT_APP_SMART_ATL_KEY,
+    googleMapsApiKey: import.meta.env.VITE_SMART_ATL_KEY,
   });
+
+  const [activateMarker,setActivateMarker] = useState(null);
+  
+  const handleActivateMarker = (marker) => {
+    if (marker === activateMarker) {
+      return;
+    }
+    setActivateMarker(marker);
+  };
 
   return (
     <div>
@@ -116,9 +135,21 @@ function Contact() {
                   <GoogleMap
                 center={{ lat: 6.546327741835034, lng: 3.288484627030556 }}
                 zoom={10}
+                onClick={() => setActivateMarker(null)}
                 mapContainerStyle={{ width:"100%", height:"50vh", }}  
               >
-                {/* Markers here */}
+                {
+                  markers.map(({ id, name, position}) => (
+                    <MarkerF key={id} 
+                    position={position} 
+                    onClick={() => handleActivateMarker(id)}
+                    >
+                     { activateMarker === id ? <InfoWindow onClick={() => setActivateMarker(null)}>
+                        <div>{name}</div>
+                      </InfoWindow> : null}
+                    </MarkerF>
+                  ))
+                }
               </GoogleMap>
                 ) : null
               }
