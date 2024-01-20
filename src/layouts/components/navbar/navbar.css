@@ -85,9 +85,9 @@ nav {
   border-bottom: none;
 }
 
-.dropdown-menu li a {
+/* .dropdown-menu li a {
 
-}
+} */
 
 .mega-menu {
   background-color: white;
@@ -143,9 +143,9 @@ mega-menu .content .row .mega-menu-links li:last-child {
   border-bottom: none;
 }
 
-.mega-menu .content .row .mega-menu-links li a {
+/* .mega-menu .content .row .mega-menu-links li a {
   
-}
+} */
 
 #mobile {
   display: none;

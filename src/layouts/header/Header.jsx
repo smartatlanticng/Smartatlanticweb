@@ -1,14 +1,15 @@
 // import React from 'react'
-import Navbar from '../components/navbar/Navbar'
+import Navbar from '../components/navbar/Navbar';
+import './header.css';
 
 function Header() {
   return (
-    <div>
+    <header className='header'>
         <div className="container">
             <Navbar />
         </div>
         
-    </div>
+    </header>
   )
 }
 

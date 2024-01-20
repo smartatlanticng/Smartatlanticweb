@@ -1,7 +1,15 @@
 import "./footer.css";
 import FooterLogo from "../../assets/logo-footer.png";
+import { useState, useEffect } from "react";
 
 function Footer() {
+
+  const [year, setYear] = useState(new Date().getFullYear());
+
+  useEffect(() => {
+    setYear(new Date().getFullYear());
+  }, []);
+
   return (
     <div className="footer">
       <div className="container">
@@ -122,7 +130,9 @@ function Footer() {
           <div className="footer-bottom">
             <div className="row">
               <div className="footer-bottom-left">
-                <p>© 2023 Smart Atlantic. All rights reserved.</p>
+                <p>
+                  {`© ${year}. Smart Atlantic. All rights reserved.`}
+                </p>
               </div>
               <div className="footer-bottom-right">
                 <ul className="footer-down-menu">

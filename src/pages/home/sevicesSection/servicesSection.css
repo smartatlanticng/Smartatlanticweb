@@ -2,6 +2,7 @@
     padding: 100px 0;
     background-image: url(../../../assets/world_map.jpg);
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .services-section .container .row {

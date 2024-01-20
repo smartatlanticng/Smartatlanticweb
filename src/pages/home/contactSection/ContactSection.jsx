@@ -1,6 +1,10 @@
 import "./contactSection.css";
+import { useNavigate } from "react-router-dom";
 
 function ContactSection() {
+
+  const navigate = useNavigate(); 
+
   return (
     <div className="contact-section">
       <div className="container">
@@ -18,8 +22,18 @@ function ContactSection() {
               </p>
             </div>
             <div className="contact-section-right-bottom">
-              <button className="btn btn-thirtialry">Contact Us</button>
-              <button className="btn btn-secondary">Learn More</button>
+              <button
+                className="btn btn-thirtialry"
+                onClick={() => navigate("/contact")}
+              >
+                Contact Us
+              </button>
+              <button
+                className="btn btn-secondary"
+                onClick={() => navigate("/about")}
+              >
+                Learn More
+              </button>
             </div>
           </div>
         </div>

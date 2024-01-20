@@ -9,6 +9,7 @@ function PageTitle({titleBg, title}) {
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
+        // backgroundAttachment: "fixed",
       }}
       className="page-title"
     >

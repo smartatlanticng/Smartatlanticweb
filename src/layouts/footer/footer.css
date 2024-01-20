@@ -41,6 +41,10 @@
     margin-top: 30px;
 }
 
+.newsleter-input-group .newsleter-box {
+    width: 80%;
+}
+
 .btn-subscribe {
     font-size: 14px;
     font-weight: 600;

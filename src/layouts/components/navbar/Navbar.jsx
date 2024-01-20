@@ -24,7 +24,7 @@ class Navbar extends Component {
             className={this.state.clicked ? "#nav-menu active" : "#nav-menu"}
           >
             <li className="nav-menu-item">
-              <NavLink to="/">Home</NavLink>
+              <NavLink to="/industries">Industries</NavLink>
             </li>
             <li className="nav-menu-item">
               <NavLink to="/insights">Insights</NavLink>
@@ -100,9 +100,6 @@ class Navbar extends Component {
                   </div>
                 </div>
               </div>
-            </li>
-            <li className="nav-menu-item">
-              <NavLink to="/industries">Industries</NavLink>
             </li>
             <li className="nav-menu-item with-dropdown">
               <NavLink to="/about">About Us</NavLink>
