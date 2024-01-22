@@ -131,7 +131,7 @@ function Footer() {
             <div className="row">
               <div className="footer-bottom-left">
                 <p>
-                  {`© ${year}. Smart Atlantic. All rights reserved.`}
+                  {`© 2021 - ${year}. Smart Atlantic. All rights reserved.`}
                 </p>
               </div>
               <div className="footer-bottom-right">
