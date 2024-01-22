@@ -52,9 +52,6 @@ class Navbar extends Component {
                         <Link to="/services">Automation</Link>
                       </li>
                       <li>
-                        <Link to="/services">Artificial Intelligence</Link>
-                      </li>
-                      <li>
                         <Link to="/services">Business Strategy</Link>
                       </li>
                       <li>

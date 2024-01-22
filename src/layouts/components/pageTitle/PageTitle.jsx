@@ -1,7 +1,7 @@
 import "./PageTitle.css";
 import PropTypes from "prop-types";
 
-function PageTitle({titleBg, title}) {
+function PageTitle({ titleBg, title }) {
   return (
     <div
       style={{

@@ -80,7 +80,7 @@ function Footer() {
               </ul>
             </div>
             <div className="about-links">
-              <h6 className="footer-link-title">Services</h6>
+              <h6 className="footer-link-title">About Us</h6>
               <ul className="footer-menu">
                 <li className="footer-menu-item">
                   <a href="#">Who We Are</a>
