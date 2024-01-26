@@ -21,16 +21,52 @@ function About() {
           <h2 className="h2-title">
             Experience a Seamless Journey with Smart Atlantic
           </h2>
-          <div className="row">
+
+          <div className="about-txt">
             <p>
-              At Smart Atlantic, we specialize in providing top-notch services
-              in software development, cloud computing, artificial intelligence,
-              and technology innovations. Our team of experts is dedicated to
-              transforming industries through innovative solutions that drive
-              growth and success. With our comprehensive range of services, we
-              help businesses stay ahead of the competition and achieve their
-              goals.
+              Smart Atlantic is a technology business which orchestrates, crafts
+              and deploy cutting-edge solutions for a diverse spectrum of global
+              clients, driving innovation and excellence spanning across
+              industries.
             </p>
+            <p>
+              In dynamic alliance, we closely collaborate with our clients, not
+              just understanding but anticipating their every need and then we
+              engineer tailored solutions from our cutting-edge products,
+              guaranteeing customers a personalised service fortified by the
+              strength of proven components.
+            </p>
+            <p>
+              We thrive in meticulous environments shaped by stringent
+              regulations and standards; we excel where attention to detail is
+              paramount. Our forte lies in delivering excellence, seamlessly
+              blending precision with remarkable public interaction.
+            </p>
+            <p>
+              As a trusted turnkey provider, Smart Atlantic command the
+              confidence of organisations, seamlessly delivering not just
+              software, hardware, and communications, but unlocking
+              comprehensive solutions that define the zenith of reliability and
+              innovation.
+            </p>
+            <p>
+              At Smart Atlantic, our commitment echoes through every facet of
+              the organization, driving us to set an unwavering standard of
+              excellence in customer service. We are dedicated to supplying
+              unparalleled solutions that redefine the benchmarks within the
+              sectors we passionately serve.
+            </p>
+            <p>
+              Our seasoned team, with a proven history of propelling blue-chip
+              customers to surpass their objectives through strategic
+              technological implementation, stands ready to elevate your
+              aspirations. Let's engage in a conversation about your current
+              requirements, unlocking new possibilities together.
+            </p>
+          </div>
+
+          <div className="row">
+            
           </div>
           <div className="row mt-50">
             <div className="col-md-2 col-sm">
@@ -97,7 +133,7 @@ function About() {
               </p>
             </div>
           </div>
-          <div className="our-people mt-50">
+          {/* <div className="our-people mt-50">
             <h5>Our People</h5>
             <div className="profile">
               <div className="profile-photo">
@@ -125,7 +161,7 @@ function About() {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <Footer />

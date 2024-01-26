@@ -118,6 +118,31 @@ function Services() {
           <h2 className="h2-title">
             At Smart Atlantic, we offer a wide range of services
           </h2>
+          <div className="services-txt">
+            <p>
+              In the realm of management consulting, we are laser-focus on our
+              clients' pivotal challenges and opportunities, catalysing
+              transformative solutions that define the trajectory of success.
+            </p>
+            <p>
+              At Smart Atlantic, we specialize in providing top-notch services
+              in software development, cloud computing, artificial intelligence,
+              and technology innovations. Our team of experts are dedicated to
+              transforming industries through innovative solutions that drive
+              growth and success.
+            </p>
+            <p>
+              With our comprehensive range of services, we help businesses stay
+              ahead of the competition and achieve their goals.
+            </p>
+            <p>
+              Agile, Software development to consultancy, cloud, business
+              strategy, change management, technology, oil and gas, artificial
+              intelligence, enterprise platforms, zero-based transformation,
+              mergers & acquisitions, corporate finance, finance consulting,
+              automation, sustainability, technology innovations etc.
+            </p>
+          </div>
           <div className="row">
             {data.map((d) => (
               <div className="col-md-3">

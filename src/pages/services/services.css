@@ -2,6 +2,16 @@
   padding: 100px 0;
 }
 
+.services .container .services-txt {
+  padding-bottom: 50px;
+}
+
+.services .container .services-txt p {
+  font-size: 1rem;
+  line-height: 21.6px;
+  padding: 7px 0;
+}
+
 .services .container .row {
   display: flex;
   flex-wrap: wrap;

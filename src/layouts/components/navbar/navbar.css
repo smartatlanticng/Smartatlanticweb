@@ -2,7 +2,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 25px 0;
+  padding: 10px 0;
   z-index: 20;
 }
 
@@ -158,7 +158,7 @@ mega-menu .content .row .mega-menu-links li:last-child {
     align-items: center;
     justify-content: flex-start;
     position: fixed;
-    top: 90px;
+    top: 63px;
     right: -100%;
     width: 100%;
     height: 100vh;
