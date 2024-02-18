@@ -5,13 +5,12 @@ import ServicesBg from "/title/services.jpg";
 import "./services.css";
 
 function Services() {
-
   const data = [
-    {
-      id: 1,
-      serv: "Software Development",
-      link: "",
-    },
+    // {
+    //   id: 1,
+    //   serv: "Software Development",
+    //   link: "",
+    // },
     {
       id: 2,
       serv: "Artificial Intelligence",
@@ -57,26 +56,26 @@ function Services() {
       serv: "Technology Innovation",
       link: "",
     },
-    {
-      id: 11,
-      serv: "Digital Commerce",
-      link: "",
-    },
-    {
-      id: 12,
-      serv: "Supply Chain Management",
-      link: "",
-    },
+    // {
+    //   id: 11,
+    //   serv: "Digital Commerce",
+    //   link: "",
+    // },
+    // {
+    //   id: 12,
+    //   serv: "Supply Chain Management",
+    //   link: "",
+    // },
     {
       id: 13,
       serv: "Change Management",
       link: "",
     },
-    {
-      id: 14,
-      serv: "Application Services",
-      link: "",
-    },
+    // {
+    //   id: 14,
+    //   serv: "Application Services",
+    //   link: "",
+    // },
     {
       id: 15,
       serv: "Oil & Gas",
@@ -102,11 +101,11 @@ function Services() {
       serv: "Finance Consulting",
       link: "",
     },
-    {
-      id: 20,
-      serv: "Data & Analytics",
-      link: "",
-    },
+    // {
+    //   id: 20,
+    //   serv: "Data & Analytics",
+    //   link: "",
+    // },
   ];
 
   return (

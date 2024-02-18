@@ -1,0 +1,23 @@
+.privacy {
+  padding: 100px 0;
+}
+
+.privacy .container p {
+  margin-bottom: 30px;
+}
+
+.privacy .container h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--primary-color);
+}

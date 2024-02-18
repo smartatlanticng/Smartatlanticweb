@@ -3,31 +3,35 @@ import Footer from "../../layouts/footer/Footer";
 import Header from "../../layouts/header/Header";
 import PageTitle from "../../layouts/components/pageTitle/PageTitle";
 import ContactBg from "/title/contact.jpg";
-import { GoogleMap, useLoadScript, MarkerF, InfoWindow } from "@react-google-maps/api";
+import {
+  GoogleMap,
+  useLoadScript,
+  MarkerF,
+  InfoWindow,
+} from "@react-google-maps/api";
 import { useState } from "react";
 
-
-const markers = [
-  {
-    id: 1,
-    name: "Isolo",
-    Position: { lat: 6.546327741835034, lng: 3.288484627030556 },
-  },
-];
+// const markers = [
+//   {
+//     id: 1,
+//     name: "Isolo",
+//     Position: { lat: 6.546327741835034, lng: 3.288484627030556 },
+//   },
+// ];
 
 function Contact() {
-  const { isLoaded } = useLoadScript({
-    googleMapsApiKey: import.meta.env.VITE_SMART_ATL_KEY,
-  });
+  // const { isLoaded } = useLoadScript({
+  //   googleMapsApiKey: import.meta.env.VITE_SMART_ATL_KEY,
+  // });
 
-  const [activateMarker,setActivateMarker] = useState(null);
-  
-  const handleActivateMarker = (marker) => {
-    if (marker === activateMarker) {
-      return;
-    }
-    setActivateMarker(marker);
-  };
+  // const [activateMarker,setActivateMarker] = useState(null);
+
+  // const handleActivateMarker = (marker) => {
+  //   if (marker === activateMarker) {
+  //     return;
+  //   }
+  //   setActivateMarker(marker);
+  // };
 
   return (
     <div>
@@ -36,6 +40,60 @@ function Contact() {
       <div className="contact">
         <div className="container">
           <div className="row">
+            <div className="message-us">
+              <h5>Get in touch</h5>
+              <p>Thanks for your interest. How can we help?</p>
+              <p>
+                Our team of experienced and experienced specialists provide
+                local support to our clients across the world.
+              </p>
+            </div>
+          </div>
+          <div className="row">
+            <div className="office-address">
+              <div className="address">
+                <h4>Lagos office</h4>
+                <p>
+                  Mulliner Towers,
+                  <br /> 2nd Floor 39 Alfred Rewane Road Lagos State, Nigeria.
+                </p>
+              </div>
+              <div className="address">
+                <h4>United Kingdom office (HQ)</h4>
+                <p>
+                  Smart Atlantic Holdings Limited, <br /> 167-169 Great Portland
+                  Street, 5th Floor, London W1W 5PF
+                </p>
+              </div>
+            </div>
+            <div className="office-address">
+              <div className="address">
+                <h4>General enquiries</h4>
+                <p>
+                  Tel: <a href="tel:+234(0)9168882651">+234(0)9168882651</a>
+                  <br />
+                  <br />
+                  Email:{" "}
+                  <a href="mailto:info@smartatlantic.net">
+                    info@smartatlantic.net
+                  </a>
+                </p>
+              </div>
+              <div className="address">
+                <h4>General enquiries</h4>
+                <p>
+                  Tel: <a href="tel:+44(0)7797407994">+44(0)7797407994</a>
+                  <br />
+                  <br />
+                  Email:{" "}
+                  <a href="mailto:info@smartatlantic.co.uk">
+                    info@smartatlantic.co.uk
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+          {/* <div className="row">
             <div className="contact-info">
               <div className="info-upper">
                 <h5>Contact Information</h5>
@@ -127,8 +185,8 @@ function Contact() {
                 <button className="btn btn-secondary">Submit</button>
               </form>
             </div>
-          </div>
-          <div className="row mt-50">
+          </div> */}
+          {/* <div className="row mt-50">
             <div className="map-box">
               {
                 isLoaded ? (
@@ -154,7 +212,7 @@ function Contact() {
                 ) : null
               }
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <Footer />

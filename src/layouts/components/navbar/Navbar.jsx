@@ -2,17 +2,15 @@ import "./navbar.css";
 import Logo from "../../../assets/logo.png";
 import { NavLink, Link } from "react-router-dom";
 import { Component } from "react";
-import Sevices from "../../../assets/services.jpg"
-
+import Sevices from "../../../assets/services.jpg";
 
 class Navbar extends Component {
-
   state = { clicked: false };
 
   handleClick = () => {
-    this.setState({clicked: !this.state.clicked})
-  }
-  render(){
+    this.setState({ clicked: !this.state.clicked });
+  };
+  render() {
     return (
       <nav>
         <Link to="/">
@@ -31,7 +29,7 @@ class Navbar extends Component {
             </li>
             <li className="nav-menu-item">
               <NavLink to="/services">Services</NavLink>
-              <div className="mega-menu">
+              {/* <div className="mega-menu">
                 <div className="content">
                   <div className="row">
                     <img src={Sevices} alt="Female customer service person" />
@@ -96,11 +94,11 @@ class Navbar extends Component {
                     </ul>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </li>
             <li className="nav-menu-item with-dropdown">
               <NavLink to="/about">About Us</NavLink>
-              <ul className="dropdown-menu">
+              {/* <ul className="dropdown-menu">
                 <li>
                   <Link to="/">Who We Are</Link>
                 </li>
@@ -116,7 +114,7 @@ class Navbar extends Component {
                 <li>
                   <Link to="/">Our People</Link>
                 </li>
-              </ul>
+              </ul> */}
             </li>
             {/* <li className="nav-menu-item">
                 <NavLink to="/careers">Careers</NavLink>

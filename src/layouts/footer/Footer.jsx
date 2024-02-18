@@ -1,9 +1,9 @@
 import "./footer.css";
 import FooterLogo from "../../assets/logo-footer.png";
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 function Footer() {
-
   const [year, setYear] = useState(new Date().getFullYear());
 
   useEffect(() => {
@@ -38,7 +38,7 @@ function Footer() {
                 </div>
               </form>
             </div>
-            <div className="services-links">
+            {/* <div className="services-links">
               <h6 className="footer-link-title">Services</h6>
               <ul className="footer-menu">
                 <li className="footer-menu-item">
@@ -78,8 +78,8 @@ function Footer() {
                   <a href="#">Enterprise Platform</a>
                 </li>
               </ul>
-            </div>
-            <div className="about-links">
+            </div> */}
+            {/* <div className="about-links">
               <h6 className="footer-link-title">About Us</h6>
               <ul className="footer-menu">
                 <li className="footer-menu-item">
@@ -95,7 +95,7 @@ function Footer() {
                   <a href="#">How We Are Organised</a>
                 </li>
               </ul>
-            </div>
+            </div> */}
             <div className="social-media-links">
               <h6 className="footer-link-title">Social Media</h6>
               <ul className="footer-menu">
@@ -137,10 +137,10 @@ function Footer() {
               <div className="footer-bottom-right">
                 <ul className="footer-down-menu">
                   <li className="footer-menu-item">
-                    <a href="#">Privacy Policy</a>
+                    <Link to="/privacy">Privacy Policy</Link>
                   </li>
                   <li className="footer-menu-item">
-                    <a href="#">Terms of Service</a>
+                    <Link to="/terms">Terms of Service</Link>
                   </li>
                 </ul>
               </div>

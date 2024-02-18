@@ -17,7 +17,7 @@ function LogoSlideSection() {
   const settings = {
     dots: false,
     infinite: true,
-    slidesToShow: 4,
+    slidesToShow: 8,
     slidesToScroll: 1,
     autoplay: true,
     speed: 2000,
@@ -29,6 +29,52 @@ function LogoSlideSection() {
     <div className="logo-slide-section">
       <div className="slides">
         <Slider {...settings}>
+          <div className="slid">
+            <img src={Client1} alt="Client-1" />
+          </div>
+          <div className="slid">
+            <img src={Client2} alt="Client-2" />
+          </div>
+          <div className="slid">
+            <img src={Client3} alt="Client-3" />
+          </div>
+          <div className="slid">
+            <img src={Client4} alt="Client-4" />
+          </div>
+          <div className="slid">
+            <img src={Client5} alt="Client-5" />
+          </div>
+
+          <div className="slid">
+            <img src={Client1} alt="Client-1" />
+          </div>
+          <div className="slid">
+            <img src={Client2} alt="Client-2" />
+          </div>
+          <div className="slid">
+            <img src={Client3} alt="Client-3" />
+          </div>
+          <div className="slid">
+            <img src={Client4} alt="Client-4" />
+          </div>
+          <div className="slid">
+            <img src={Client5} alt="Client-5" />
+          </div>
+          <div className="slid">
+            <img src={Client6} alt="Client-6" />
+          </div>
+          <div className="slid">
+            <img src={Client7} alt="Client-7" />
+          </div>
+          <div className="slid">
+            <img src={Client8} alt="Client-8" />
+          </div>
+          <div className="slid">
+            <img src={Client9} alt="Client-9" />
+          </div>
+          <div className="slid">
+            <img src={Client10} alt="Client-10" />
+          </div>
           <div className="slid">
             <img src={Client1} alt="Client-1" />
           </div>
