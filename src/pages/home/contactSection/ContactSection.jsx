@@ -11,7 +11,7 @@ function ContactSection() {
         <div className="overlay"></div>
         <div className="row">
           <div className="contact-section-left">
-            <h2 className="h2-title">Transform Your Business Today</h2>
+            <h2 className="h2-title">Transform your business today</h2>
           </div>
           <div className="contact-section-right">
             <div className="contact-section-right-top">
@@ -30,7 +30,7 @@ function ContactSection() {
               </button>
               <button
                 className="btn btn-secondary"
-                onClick={() => navigate("/about")}
+                onClick={() => navigate("/services")}
               >
                 Learn More
               </button>

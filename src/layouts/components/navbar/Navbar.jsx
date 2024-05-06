@@ -98,11 +98,11 @@ class Navbar extends Component {
             </li>
             <li className="nav-menu-item with-dropdown">
               <NavLink to="/about">About Us</NavLink>
-              {/* <ul className="dropdown-menu">
+              <ul className="dropdown-menu">
                 <li>
-                  <Link to="/">Who We Are</Link>
+                  <Link to="/who we are">Who We Are</Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link to="/">What We Believe</Link>
                 </li>
                 <li>
@@ -113,8 +113,8 @@ class Navbar extends Component {
                 </li>
                 <li>
                   <Link to="/">Our People</Link>
-                </li>
-              </ul> */}
+                </li> */}
+              </ul>
             </li>
             {/* <li className="nav-menu-item">
                 <NavLink to="/careers">Careers</NavLink>

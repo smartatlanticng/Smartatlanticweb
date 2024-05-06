@@ -12,6 +12,7 @@ import Client7 from "../../../assets/logoSlides/client7.jpg";
 import Client8 from "../../../assets/logoSlides/client8.jpg";
 import Client9 from "../../../assets/logoSlides/client9.jpg";
 import Client10 from "../../../assets/logoSlides/client10.jpg";
+import Client11 from "../../../assets/logoSlides/client11.jpg";
 
 function LogoSlideSection() {
   const settings = {
@@ -23,6 +24,33 @@ function LogoSlideSection() {
     speed: 2000,
     autoplaySpeed: 2000,
     cssEase: "linear",
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 6,
+          slidesToScroll: 3,
+          autoplay: true,
+          infinite: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 2,
+          initialSlide: 2,
+          autoplay: true,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   return (
@@ -44,8 +72,25 @@ function LogoSlideSection() {
           <div className="slid">
             <img src={Client5} alt="Client-5" />
           </div>
-
           <div className="slid">
+            <img src={Client6} alt="Client-6" />
+          </div>
+          <div className="slid">
+            <img src={Client7} alt="Client-7" />
+          </div>
+          <div className="slid">
+            <img src={Client8} alt="Client-8" />
+          </div>
+          <div className="slid">
+            <img src={Client9} alt="Client-9" />
+          </div>
+          <div className="slid">
+            <img src={Client10} alt="Client-10" />
+          </div>
+          <div className="slid">
+            <img src={Client11} alt="Client-11" />
+          </div>
+          {/* <div className="slid">
             <img src={Client1} alt="Client-1" />
           </div>
           <div className="slid">
@@ -76,51 +121,8 @@ function LogoSlideSection() {
             <img src={Client10} alt="Client-10" />
           </div>
           <div className="slid">
-            <img src={Client1} alt="Client-1" />
-          </div>
-          <div className="slid">
-            <img src={Client2} alt="Client-2" />
-          </div>
-          <div className="slid">
-            <img src={Client3} alt="Client-3" />
-          </div>
-          <div className="slid">
-            <img src={Client4} alt="Client-4" />
-          </div>
-          <div className="slid">
-            <img src={Client5} alt="Client-5" />
-          </div>
-
-          <div className="slid">
-            <img src={Client1} alt="Client-1" />
-          </div>
-          <div className="slid">
-            <img src={Client2} alt="Client-2" />
-          </div>
-          <div className="slid">
-            <img src={Client3} alt="Client-3" />
-          </div>
-          <div className="slid">
-            <img src={Client4} alt="Client-4" />
-          </div>
-          <div className="slid">
-            <img src={Client5} alt="Client-5" />
-          </div>
-          <div className="slid">
-            <img src={Client6} alt="Client-6" />
-          </div>
-          <div className="slid">
-            <img src={Client7} alt="Client-7" />
-          </div>
-          <div className="slid">
-            <img src={Client8} alt="Client-8" />
-          </div>
-          <div className="slid">
-            <img src={Client9} alt="Client-9" />
-          </div>
-          <div className="slid">
-            <img src={Client10} alt="Client-10" />
-          </div>
+            <img src={Client11} alt="Client-11" />
+          </div> */}
         </Slider>
       </div>
     </div>

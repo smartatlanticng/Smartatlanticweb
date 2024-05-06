@@ -19,7 +19,7 @@
 
 .contact-section .container .row {
   display: flex;
-  gap: 1px;
+  /* gap: 1px; */
 }
 
 .contact-section .container .row .contact-section-right-top p {

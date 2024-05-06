@@ -15,8 +15,10 @@ function Footer() {
       <div className="container">
         <div className="row">
           <div className="footer-top">
-            <div className="logo-news-leter">
+            <div className="logo-box">
               <img src={FooterLogo} alt="Logo" />
+            </div>
+            <div className="logo-news-leter">
               <p className="footer-text">
                 Join our newsletter to stay up to date on features and releases.
               </p>
@@ -99,31 +101,34 @@ function Footer() {
             <div className="social-media-links">
               <h6 className="footer-link-title">Social Media</h6>
               <ul className="footer-menu">
-                <li className="footer-menu-item">
+                {/* <li className="footer-menu-item">
                   <a href="#">
                     <i className="fa-brands fa-facebook"></i> Facebook
                   </a>
-                </li>
+                </li> */}
                 <li className="footer-menu-item">
-                  <a href="#">
+                  <a
+                    href="https://www.instagram.com/smartatlantic"
+                    target="blank"
+                  >
                     <i className="fa-brands fa-instagram"></i> Instagram
                   </a>
                 </li>
                 <li className="footer-menu-item">
-                  <a href="#">
+                  <a href="https://twitter.com/SmartAtlanticCo" target="blank">
                     <i className="fa-brands fa-x-twitter"></i> X
                   </a>
                 </li>
                 <li className="footer-menu-item">
-                  <a href="#">
+                  <a href="https://www.linkedin.com/company/smart-atlantic" target="blank">
                     <i className="fa-brands fa-linkedin"></i> LinkedIn
                   </a>
                 </li>
-                <li className="footer-menu-item">
+                {/* <li className="footer-menu-item">
                   <a href="#">
                     <i className="fa-brands fa-youtube"></i> Youtube
                   </a>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>

@@ -6,21 +6,22 @@ import InsightsBg from "/title/insights.jpg";
 import dayjs from "dayjs";
 import Blogs from "../../data/insights.json";
 import { Link } from "react-router-dom";
-import Select from 'react-select';
+import Select from "react-select";
 import { useState } from "react";
 
 function Insights() {
+  const [selectedCategory, setSelectedCategories] = useState("");
+  console.log("selectedCategory", selectedCategory);
+  const categories = Array.from(new Set(Blogs.map((blog) => blog.category)));
 
-    const [selectedCategory, setSelectedCategory] = useState(null);
-    const categories = Array.from(
-      new Set(Blogs.map((blog) => blog.category) )
-    )
+  const categoryOptions = categories.map((category) => ({
+    value: category,
+    label: category,
+  }));
 
-    const categoryOptions = categories.map((category) =>({
-      value : category,
-      label : category
-    }))
-    const filterBlogs = selectedCategory ? Blogs.filter((blog) => blog.category === selectedCategory.value):Blogs;
+  const filterBlogs = selectedCategory
+    ? Blogs.filter((blog) => blog.category === selectedCategory.value)
+    : Blogs;
 
   return (
     <div>
@@ -32,9 +33,9 @@ function Insights() {
           <div>
             <select
               options={categoryOptions}
-              isclearable
+              // isclearable
               placeholder="Select a category"
-              onChange={(selectOption) => setSelectedCategory(selectOption)}
+              onChange={(selectOption) => setSelectedCategories(selectOption)}
               value={selectedCategory}
             />
           </div>

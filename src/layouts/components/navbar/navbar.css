@@ -17,6 +17,7 @@ nav {
   padding: 0 10px;
   font-size: 1.05rem;
   font-weight: 600;
+  z-index: 10;
 }
 
 .nav-menu-item a {
@@ -61,13 +62,14 @@ nav {
   background-color: white;
   width: fit-content;
   position: absolute;
-  top: 62px;
+  top: 40px;
   line-height: 55px;
   opacity: 0;
   visibility: hidden;
   padding-top: 20px;
   list-style: none;
   padding: 5px 15px;
+  z-index: -1;
 }
 
 .nav-menu-item:hover .dropdown-menu {
@@ -180,24 +182,23 @@ mega-menu .content .row .mega-menu-links li:last-child {
     display: block;
   }
 
-  #mobile i{
+  #mobile i {
     font-size: 24px;
     cursor: pointer;
   }
 
-  .dropdown-menu{
+  .dropdown-menu {
     width: 100%;
     left: 0;
     text-align: center;
   }
 
   .mega-menu .content .row img {
-  display: none;
-}
+    display: none;
+  }
 
-.mega-menu .content .row .mega-menu-links {
-  column-count: 2;
-  width: 100%;
-}
-
+  .mega-menu .content .row .mega-menu-links {
+    column-count: 2;
+    width: 100%;
+  }
 }

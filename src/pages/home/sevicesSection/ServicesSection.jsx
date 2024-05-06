@@ -69,7 +69,7 @@ function ServicesSection() {
         <div className="row">
           <div className="service-section-left">
             <h2 className="h2-title">
-              Unlocking Potential Through Smart Solutions
+              Unlocking potential through smart solutions
             </h2>
             <p>
               At Smart Atlantic, we offer a wide range of services including

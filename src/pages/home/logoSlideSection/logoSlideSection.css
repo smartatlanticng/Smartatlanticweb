@@ -1,5 +1,7 @@
 .logo-slide-section {
     background: transparent;
+    width: 100%;
+    overflow: hidden;
 }
 
 .logo-slide-section .slides {

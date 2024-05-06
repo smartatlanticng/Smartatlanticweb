@@ -13,6 +13,7 @@
     "@emailjs/browser": "^3.12.1",
     "@react-google-maps/api": "^2.19.2",
     "dayjs": "^1.11.10",
+    "emailjs": "^3.3.0",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

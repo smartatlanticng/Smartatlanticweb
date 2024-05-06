@@ -70,9 +70,8 @@ body {
   font-size: 48px;
   font-weight: 600;
   margin-bottom: 30px;
-  width: 50%;
+  width: 100%;
 }
-
 
 .col-md-2 {
   width: 50%;
@@ -89,8 +88,6 @@ body {
 .mt-50 {
   margin-top: 100px;
 }
-
-
 
 @media only screen and (max-width: 769px) {
   .container {
@@ -109,16 +106,24 @@ body {
   .h2-title {
     font-size: 38px;
   }
-  
+
   .col-sm {
     width: 100%;
   }
 
+  .col-md-2 {
+    width: 100%;
+  }
+
   .col-md-3 {
-  width: 50%;
-}
+    width: 50%;
+  }
 
   .col-sm-2 {
-    width: 50%;
+    width: 100%;
+  }
+
+  .col-md-4 {
+    width: 100%;
   }
 }

@@ -7,7 +7,7 @@
 
 .services-section .container .row {
     display: flex;
-    gap: 50px;
+    gap: 20px;
 }
 
 .services-section .container .row .service-section-left {

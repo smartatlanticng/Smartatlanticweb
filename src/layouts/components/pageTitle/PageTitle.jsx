@@ -1,4 +1,4 @@
-import "./PageTitle.css";
+import "./pageTitle.css";
 import PropTypes from "prop-types";
 
 function PageTitle({ titleBg, title }) {

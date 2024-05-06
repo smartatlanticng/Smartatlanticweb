@@ -9,7 +9,8 @@ import {
   MarkerF,
   InfoWindow,
 } from "@react-google-maps/api";
-import { useState } from "react";
+import { useState, useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 // const markers = [
 //   {
@@ -32,6 +33,25 @@ function Contact() {
   //   }
   //   setActivateMarker(marker);
   // };
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm("service_yk1rcbf", "template_970dnif", form.current, {
+        publicKey: "j3IfTS8xdBTWAa6yi",
+      })
+      .then(
+        () => {
+          console.log("SUCCESS!");
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+        }
+      );
+  };
 
   return (
     <div>
@@ -80,7 +100,7 @@ function Contact() {
                 </p>
               </div>
               <div className="address">
-                <h4>General enquiries</h4>
+                <h4>United Kingdom General enquiries</h4>
                 <p>
                   Tel: <a href="tel:+44(0)7797407994">+44(0)7797407994</a>
                   <br />
@@ -92,7 +112,35 @@ function Contact() {
                 </p>
               </div>
             </div>
+            <div className="request-box">
+              <div className="request-box-inner">
+                <h5>Send Us A Message</h5>
+                <p>Have questions or need assistance? We're here to help!</p>
+                <form ref={form} onSubmit={sendEmail}>
+                  <input
+                    type="text"
+                    placeholder="Enter Your Name Here"
+                    name="from_name"
+                  />
+                  <input
+                    type="text"
+                    placeholder="Your Email  Address"
+                    name="from_email"
+                  />
+                  <input type="text" placeholder="Subject" name="subject" />
+                  <textarea
+                    name="message"
+                    id=""
+                    cols="30"
+                    rows="10"
+                    placeholder="Your message"
+                  ></textarea>
+                  <button className="btn btn-secondary">Submit</button>
+                </form>
+              </div>
+            </div>
           </div>
+
           {/* <div className="row">
             <div className="contact-info">
               <div className="info-upper">
