@@ -17,3 +17,5 @@ jobs:
           base_url: "https://abbeylincon.com"
           # specification_path: "<your-openapi-specification-file-goes-here>"
           apisecu_token: "U2FsdGVkX18VyYCLrUuQ9KOtwaSTwOfCF1NVieZIT3ktTJZCNTKNpEeMKgkZhwFs"
+
+
