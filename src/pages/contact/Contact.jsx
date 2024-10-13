@@ -58,8 +58,8 @@ function Contact() {
       <Header />
       <PageTitle title="Contacts" titleBg={ContactBg} />
       <div className="contact">
-        <div className="container">
-          <div className="row">
+        <section className="contact-top">
+          <div className="contact-top-left">
             <div className="message-us">
               <h5>Get in touch</h5>
               <p>Thanks for your interest. How can we help?</p>
@@ -69,8 +69,68 @@ function Contact() {
               </p>
             </div>
           </div>
+          <div className="contact-top-right">Map here</div>
+        </section>
+        <section className="container">
+          <div className="row space">
+            <div className="contanct-detials">
+              <article className="contact-detail">
+                <div className="contact-image lagos"></div>
+                <div className="detail">
+                  <h3>Lagos Office:</h3>
+                  <p>
+                    Smart Atlantic Nigeria Limited <br></br>Mulliner Towers
+                    <br></br>Second floor <br></br>39 Alfred Rewane Road
+                    <br></br>Lagos <br></br>Nigeria
+                  </p>
+                  <p className="phone-mail">
+                    <span>+2349168882651</span> |
+                    <span>info@smartatlantic.net</span>
+                  </p>
+                </div>
+              </article>
+              <article className="contact-detail">
+                <div className="contact-image london"></div>
+                <div className="detail">
+                  <h3>London Office:</h3>
+                  <p>
+                    Fifth Floor <br></br>167 - 169 Great Portland Street
+                    <br></br>London <br></br>W1W 5PF <br></br>United Kingdom
+                  </p>
+                  <p className="phone-mail">
+                    <span>+447787407994</span> |
+                    <span>info@smartatlantic.net</span>
+                  </p>
+                </div>
+              </article>
+              <article className="contact-detail">
+                <div className="contact-image texas"></div>
+                <div className="detail">
+                  <h3>Addison Office:</h3>
+                  <p>
+                    5015 Addison Cir <br></br>#1004 <br></br>Addison, Texas
+                    <br></br>75001 <br></br>United States of America
+                  </p>
+                  <p className="phone-mail">
+                    <span>+2349168882651</span> |
+                    <span>info@smartatlantic.net</span>
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+          {/* <div className="row">
+            <div className="message-us">
+              <h5>Get in touch</h5>
+              <p>Thanks for your interest. How can we help?</p>
+              <p>
+                Our team of experienced and experienced specialists provide
+                local support to our clients across the world.
+              </p>
+            </div>
+          </div> */}
           <div className="row">
-            <div className="office-address">
+            {/* <div className="office-address">
               <div className="address">
                 <h4>Lagos office</h4>
                 <p>
@@ -111,7 +171,7 @@ function Contact() {
                   </a>
                 </p>
               </div>
-            </div>
+            </div> */}
             <div className="request-box">
               <div className="request-box-inner">
                 <h5>Send Us A Message</h5>
@@ -261,7 +321,7 @@ function Contact() {
               }
             </div>
           </div> */}
-        </div>
+        </section>
       </div>
       <Footer />
     </div>
