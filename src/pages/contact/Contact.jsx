@@ -94,7 +94,8 @@ function Contact() {
                 <div className="detail">
                   <h3>London Office:</h3>
                   <p>
-                    Fifth Floor <br></br>167 - 169 Great Portland Street
+                    Smart Atlantic Holdings Limited<br></br> 5th Floor <br></br>
+                    167 - 169 Great Portland Street
                     <br></br>London <br></br>W1W 5PF <br></br>United Kingdom
                   </p>
                   <p className="phone-mail">
@@ -108,7 +109,8 @@ function Contact() {
                 <div className="detail">
                   <h3>Addison Office:</h3>
                   <p>
-                    5015 Addison Cir <br></br>#1004 <br></br>Addison, Texas
+                    Smart Atlantic LLC<br></br>
+                    5015 Addison Circle <br></br>#1004 <br></br>Addison, Texas
                     <br></br>75001 <br></br>United States of America
                   </p>
                   <p className="phone-mail">
