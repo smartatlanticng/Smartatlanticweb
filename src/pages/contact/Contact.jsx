@@ -69,7 +69,7 @@ function Contact() {
               </p>
             </div>
           </div>
-          <div className="contact-top-right">Map here</div>
+          {/* <div className="contact-top-right">Map here</div> */}
         </section>
         <section className="container">
           <div className="row space">
